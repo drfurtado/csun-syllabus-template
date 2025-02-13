@@ -8,9 +8,9 @@ This repository contains syllabus templates for California State University, Nor
 For faculty who just want to use the templates:
 
 1. Click one of these download links:
-   - 📝 [Standard Template](csun-syllabus-template.docx) - For traditional courses
-   - 💻 [Online/Hybrid Template](csun-online-syllabus-template.docx) - For online/hybrid courses
-   - 📄 [Simplified Template](csun-syllabus-template-notoc.docx) - No table of contents
+   - 📝 [Standard Template](csun-syllabus-template.docx?raw=true) - For traditional courses
+   - 💻 [Online/Hybrid Template](csun-online-syllabus-template.docx?raw=true) - For online/hybrid courses
+   - 📄 [Simplified Template](csun-syllabus-template-notoc.docx?raw=true) - No table of contents
 
 2. Open in Microsoft Word and fill in your course information
 
