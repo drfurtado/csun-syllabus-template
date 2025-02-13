@@ -21,7 +21,7 @@ For developers or users who want to customize the template generation:
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/your-org/kincsun-templates.git
+git clone https://github.com/drfurtado/csun-syllabus-template.git
 
 # 2. Install requirements
 pip install -r requirements.txt
