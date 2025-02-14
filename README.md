@@ -1,6 +1,8 @@
 # CSUN Syllabus Templates
 
-This repository contains syllabus templates for California State University, Northridge (CSUN) faculty members, designed to meet all Faculty Senate requirements.
+This repository contains syllabus templates for California State University, Northridge (CSUN) faculty members, designed to meet all Faculty Senate* requirements.
+
+* https://canvas.csun.edu/courses/93131/pages/syllabus
 
 ## Two Ways to Use These Templates
 

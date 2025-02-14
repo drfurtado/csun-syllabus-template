@@ -18,12 +18,5 @@ __pycache__/
 *_files/
 *.html
 
-# Built files
-csun-syllabus-template.docx
-csun-syllabus-template-notoc.docx
-csun-online-syllabus-template.docx
-csun-online-syllabus-template-notoc.docx
-csun-syllabus-reference.docx
-
 # But keep the CSUN logo
 !csun-logo-syllabi.png
