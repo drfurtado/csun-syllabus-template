@@ -1,0 +1,89 @@
+---
+title: "Course Syllabus"
+format:
+  docx:
+    reference-doc: csun-syllabus-reference.docx
+    toc: false
+---
+
+![](csun-logo-syllabi.png)
+
+::: {custom-style="Institution"}
+California State University, Northridge
+:::
+
+| Section | Content |
+|---------|----------|
+| **Course** | [Course Subject and Number] - [Course Title] |
+| **Term** | [Semester and Year] |
+| **Class Meeting Times** | [Days and Times] |
+| **Location** | [Building and Room Number / Online] |
+
+| Instructor Information ||
+|---------|----------|
+| **Instructor** | [Your Name] |
+| **Office Location** | [Building and Room Number] |
+| **Office Hours** | [Days, Times, and Location/Mode] |
+| **Email** | [your.email@csun.edu] |
+| **Phone** | [(818) XXX-XXXX] |
+
+| Course Description ||
+|---------|----------|
+| **Catalog Description** | [Insert official catalog description] |
+| **Prerequisites** | [List prerequisites or state "None"] |
+| **Course Format** | [Lecture, Lab, Seminar, etc.] |
+
+| Course Materials ||
+|---------|----------|
+| **Required Textbook(s)** | [List required texts with full citations] |
+| **Additional Materials** | [List any required materials, software, etc.] |
+
+| Student Learning Outcomes ||
+|---------|----------|
+| Upon completion of this course, students will be able to: ||
+| 1. | [Learning Outcome 1] |
+| 2. | [Learning Outcome 2] |
+| 3. | [Learning Outcome 3] |
+
+| Course Requirements and Grading ||
+|---------|----------|
+| **Assignment** | **Points/Percentage** |
+| [Assignment 1] | [XX%] |
+| [Assignment 2] | [XX%] |
+| [Assignment 3] | [XX%] |
+| **Total** | **100%** |
+
+| Grading Scale ||
+|---------|----------|
+| A | 93-100% |
+| A- | 90-92% |
+| B+ | 87-89% |
+| B | 83-86% |
+| B- | 80-82% |
+| C+ | 77-79% |
+| C | 73-76% |
+| C- | 70-72% |
+| D+ | 67-69% |
+| D | 63-66% |
+| D- | 60-62% |
+| F | Below 60% |
+
+| Course Policies ||
+|---------|----------|
+| **Attendance** | [Your attendance policy] |
+| **Late Work** | [Your late work policy] |
+| **Academic Integrity** | [Statement on academic integrity and consequences] |
+
+| University Policies and Resources ||
+|---------|----------|
+| **Disability Resources** | If you have a disability and need accommodations, please register with the Disability Resources and Educational Services (DRES) office or the National Center on Deafness (NCOD). Contact DRES at (818) 677-2684 or NCOD at (818) 677-2054. |
+| **Emergency Information** | For information on campus emergency procedures and safety resources, visit [Emergency Information](https://www.csun.edu/emergency) |
+
+| Course Schedule ||
+|---------|----------|
+| **Week** | **Topics & Assignments** |
+| Week 1 | [Topics and due dates] |
+| Week 2 | [Topics and due dates] |
+| [Continue for all weeks] | |
+
+*Note: This schedule is tentative and subject to change. Any modifications will be announced in class and posted online.*

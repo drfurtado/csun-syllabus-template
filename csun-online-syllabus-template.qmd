@@ -1,193 +1,140 @@
 ---
-title: "CSUN Online/Hybrid Course Syllabus Template"
+title: "Online/Hybrid Long Template"
 format:
   docx:
-    output-file: "csun-online-syllabus-template.docx"
+    reference-doc: csun-syllabus-reference.docx
     toc: true
     number-sections: true
-    highlight-style: github
-    reference-doc: csun-syllabus-reference.docx
-    geometry:
-      - margin=0.5in
-    tables:
-      style: Table Grid
-      width: fit
-      caption:
-        placement: top
-        list-tables: false
-  docx-notoc:
-    output-file: "csun-online-syllabus-template-notoc.docx"
-    toc: false
-    number-sections: false
-    highlight-style: github
-    reference-doc: csun-syllabus-reference.docx
-    geometry:
-      - margin=0.5in
-    tables:
-      style: Table Grid
-      width: fit
-      caption:
-        placement: top
-        list-tables: false
 ---
 
-# California State University, Northridge
-## [Department Name]
-## [Course Number] - [Course Title] (Online/Hybrid)
+![](csun-logo-syllabi.png)
 
-**Semester:** [Semester Year]  
-**Last Updated:** [Date of Last Revision]
-
-## Course Information
-
-| Information | Details | Information | Details |
-|-------------|---------|-------------|---------|
-| Class Number/Section | [Class Number] | Course Format | [Online/Hybrid] |
-| Synchronous Sessions | [Days/Times of required live sessions, if any] | In-Person Meetings | [Days/Times/Location of in-person meetings for hybrid courses] |
-| Prerequisites | [List prerequisites or "None"] | GE Category | [If applicable, list GE category and outcomes] |
-| Writing Intensive | [Yes/No - If yes, include WI outcomes] | Information Competence | [Yes/No - If yes, include IC outcomes] |
-
-## Instructor Information
-
-| Information | Details | Information | Details |
-|-------------|---------|-------------|---------|
-| Name | [Instructor Name] | Email | [CSUN Email Address] |
-| Virtual Office Hours | [Days/Times and Platform] | Platform | [Platform] |
-| In-Person Office Hours | [If applicable for hybrid courses] | Office Location | [Physical or Virtual] |
-| Phone | [Office Phone] | Response Time | [Expected response time for emails/messages] |
-
-## Course Description
-
-[Official catalog description]
-
-## Course Technology Requirements
-
-### Required Hardware
-::: {custom-style="List Bullet"}
-- Computer or device with webcam and microphone
-- Reliable high-speed internet connection
-- [Additional hardware requirements]
+::: {custom-style="Institution"}
+California State University, Northridge
 :::
 
-### Required Software
-::: {custom-style="List Bullet"}
-- Canvas Learning Management System
-- [Videoconferencing software (e.g., Zoom)]
-- [List of required software and where to obtain it]
-- [Browser requirements]
-:::
+# Course Information
 
-### Technical Skills Required
-::: {custom-style="List Bullet"}
-- Basic computer literacy
-- File management and submission in Canvas
-- [Other required technical skills]
-:::
+| | |
+|---------------------------|--------------------------------------------------|
+| Course | [Course Subject and Number] - [Course Title] |
+| Term | [Semester and Year] |
+| Course Modality | Online/Hybrid |
+| In-Person Meetings | [Days/Times if hybrid, or "Fully Online"] |
+| Virtual Sessions | [Synchronous meeting times or "Asynchronous"] |
 
-## Online Course Structure
+# Instructor Information
 
-### Course Organization in Canvas
-::: {custom-style="List Bullet"}
-- All course materials are organized by [weeks/modules]
-- Each module contains: [lectures, readings, assignments, etc.]
-- Due dates are in Pacific Time
-- New content is released [schedule/timing]
-:::
+| | |
+|---------------------------|--------------------------------------------------|
+| Instructor | [Your Name] |
+| Virtual Office Hours | [Days, Times, and Platform (e.g., Zoom)] |
+| Email | [your.email@csun.edu] |
+| Response Time | [Expected email response time] |
+| Virtual Office Link | [Zoom/Teams meeting link] |
 
-### Communication Guidelines
-::: {custom-style="List Bullet"}
-- Check Canvas and CSUN email [frequency expectation]
-- Expected response time from instructor: [timeframe]
-- Questions forum location: [Canvas discussion board]
-- Virtual office hours access: [platform and instructions]
-:::
+# Course Description and Format
 
-### Online Participation Requirements
-::: {custom-style="List Bullet"}
-- Log into Canvas [minimum frequency]
-- Complete module activities by [day of week]
-- Participate in discussions [frequency]
-- Attend synchronous sessions [if required]
-- Submit assignments by [time/timezone]
-:::
+| | |
+|---------------------------|--------------------------------------------------|
+| Catalog Description | [Insert official catalog description] |
+| Prerequisites | [List prerequisites or state "None"] |
+| Technology Requirements | - Reliable internet connection<br>- Computer with webcam and microphone<br>- [Additional specific software/hardware] |
 
-### Netiquette Guidelines
-::: {custom-style="List Bullet"}
-- Use professional language
-- Show respect in all communications
-- [Additional online conduct expectations]
-:::
+# Online Learning Environment
 
-## Course Student Learning Outcomes
+| | |
+|---------------------------|--------------------------------------------------|
+| Learning Management System | Canvas ([canvas.csun.edu](https://canvas.csun.edu)) |
+| Virtual Meetings | [Zoom/Teams/Other platform] |
+| Required Software | [List required applications] |
 
-Upon successful completion of this course, students will be able to:
+# Student Learning Outcomes
 
-::: {custom-style="List Bullet"}
+Upon completion of this course, students will be able to:
+
 1. [Learning Outcome 1]
 2. [Learning Outcome 2]
 3. [Learning Outcome 3]
-:::
 
-[Include department learning objectives if applicable]
+# Course Requirements and Grading
 
-## Course Materials and Resources
+## Online Participation and Engagement
 
-### Required Materials
-- [Digital textbook information including ISBN]
-- [Online resources and subscriptions]
-- [Additional materials]
+| Component | Description |
+|-----------|-------------|
+| Discussion Forums | [Participation requirements] |
+| Virtual Sessions | [Attendance/participation policy] |
+| Group Work | [Online collaboration expectations] |
 
-### Technical Support Resources
-- Canvas Support: [contact info]
-- CSUN IT Help Center: [contact info]
-- [Additional support resources]
+## Assignments and Assessment
 
-## Course Requirements and Grading
+| Assignment | Points/Percentage |
+|------------|------------------|
+| Online Discussions | [XX%] |
+| Virtual Projects | [XX%] |
+| Digital Submissions | [XX%] |
+| **Total** | **100%** |
 
-| Component & Details | Percentage | Component & Details | Percentage |
-|-------------------|------------|-------------------|------------|
-| Online Discussions: [Frequency and expectations] | [%] | Assignments: [Types and submission requirements] | [%] |
-| Quizzes/Exams: [Format and proctoring details] | [%] | [Other Component] | [%] |
+## Grading Scale
 
-### Online Assignment Submission
-- All assignments must be submitted through Canvas
-- Accepted file formats: [list formats]
-- File naming convention: [specify convention]
-- Late submission policy: [details]
+| Grade | Range |
+|-------|--------|
+| A | 93-100% |
+| A- | 90-92% |
+| B+ | 87-89% |
+| B | 83-86% |
+| B- | 80-82% |
+| C+ | 77-79% |
+| C | 73-76% |
+| C- | 70-72% |
+| D+ | 67-69% |
+| D | 63-66% |
+| D- | 60-62% |
+| F | Below 60% |
 
-### Grading Scale
-[Standard grading scale section]
+# Online Course Policies
 
-## Course Policies
+## Online Participation
+[Specific expectations for online engagement]
 
-### Online Attendance and Participation
-- Regular and substantive interaction requirements
-- Participation tracking methods
-- Minimum online activity requirements
-- [Hybrid course attendance policy if applicable]
+## Digital Submission Policy
+[File formats, submission procedures, late work policy]
 
-### Technical Issues Protocol
-1. [Steps to report technical problems]
-2. [Alternative submission methods]
-3. [Documentation requirements]
-4. [Extension/make-up policy for technical issues]
+## Technical Issues
+[Protocol for handling technical difficulties]
 
-[Standard university policies sections]
+## Online Communication Guidelines
+- [Netiquette expectations]
+- [Communication tools and response times]
+- [Virtual office hours protocol]
 
-## Course Schedule
+# Technology Support
 
-| Week & Online Activities | Synchronous & Due Dates | Week & Online Activities | Synchronous & Due Dates |
-|------------------------|------------------------|------------------------|------------------------|
-| Week 1: [Online content] | [Live session topic/Deadlines] | Week 2: [Online content] | [Live session topic/Deadlines] |
-| Week 3: [Online content] | [Live session topic/Deadlines] | Week 4: [Online content] | [Live session topic/Deadlines] |
+| Resource | Contact/Information |
+|----------|-------------------|
+| CSUN IT Help Center | (818) 677-1400 |
+| Canvas Support | [Online Chat/Phone] |
+| [Other Tech Support] | [Contact information] |
 
-## Time Management Success Tips
-- Schedule regular times for coursework
-- Plan [X] hours per week for online activities
-- Set up notifications in Canvas
-- Create a dedicated study space
-- Use a calendar for all due dates
+# University Policies and Resources
 
-## Important Note
+## Online Learning Resources
+[Links to CSUN online learning support services]
 
-This syllabus is subject to change. Any modifications will be announced through Canvas and via CSUN email.
+## Disability Resources
+If you have a disability and need accommodations, please register with the Disability Resources and Educational Services (DRES) office or the National Center on Deafness (NCOD). Contact DRES at (818) 677-2684 or NCOD at (818) 677-2054.
+
+## Academic Integrity in Online Learning
+[Specific policies regarding online academic integrity]
+
+# Course Schedule
+
+| Week | Online Activities & Deadlines |
+|------|------------------------------|
+| Week 1 | - [Online tasks]<br>- [Virtual meetings]<br>- [Deadlines] |
+| Week 2 | - [Online tasks]<br>- [Virtual meetings]<br>- [Deadlines] |
+| Week 3 | - [Online tasks]<br>- [Virtual meetings]<br>- [Deadlines] |
+// ...continue for remaining weeks...
+
+*Note: This schedule is tentative and subject to change. All changes will be announced through Canvas.*

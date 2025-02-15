@@ -8,9 +8,10 @@ This repository contains syllabus templates for California State University, Nor
 For faculty who just want to use the templates:
 
 1. Click one of these download links:
-   - 📝 [Standard Template](csun-syllabus-template.docx?raw=true) - For traditional courses
-   - 💻 [Online/Hybrid Template](csun-online-syllabus-template.docx?raw=true) - For online/hybrid courses
-   - 📄 [Simplified Template](csun-syllabus-template-notoc.docx?raw=true) - No table of contents
+   - 📝 [Traditional Long Template](csun-syllabus-template.docx?raw=true) - Full format with table of contents
+   - 📄 [Traditional Short Template](csun-syllabus-template-notoc.docx?raw=true) - Concise format with two-column tables
+   - 💻 [Online/Hybrid Long Template](csun-online-syllabus-template.docx?raw=true) - Full online/hybrid format with TOC
+   - 🔄 [Online/Hybrid Short Template](csun-online-syllabus-template-notoc.docx?raw=true) - Concise online/hybrid with two-column tables
 
 2. Open in Microsoft Word and fill in your course information
 
@@ -74,23 +75,29 @@ The build script will:
 
 ## Available Templates
 
-1. **Standard Template with Table of Contents** ([Download](csun-syllabus-template.docx))
-   - Includes an automatically generated table of contents
-   - Sections are numbered for easy reference
-   - Comprehensive sections for all course modalities
+1. **Traditional Long Template** ([Download](csun-syllabus-template.docx))
+   - Full format with table of contents and section numbering
+   - Detailed sections with single-column tables
+   - Comprehensive sections for traditional course delivery
    - Meets all Faculty Senate requirements
 
-2. **Streamlined Template without TOC** ([Download](csun-syllabus-template-notoc.docx))
-   - Clean, straightforward layout without table of contents
-   - No section numbering
-   - Same comprehensive content as the standard template
+2. **Traditional Short Template** ([Download](csun-syllabus-template-notoc.docx))
+   - Concise format with two-column tables
+   - No table of contents or section numbering
+   - Same comprehensive content in a more compact layout
    - Ideal for shorter syllabi or when a simpler format is preferred
 
-3. **Online/Hybrid Course Template** ([Download](csun-online-syllabus-template.docx))
-   - Specialized for online and hybrid course delivery
-   - Enhanced technology and participation requirements
+3. **Online/Hybrid Long Template** ([Download](csun-online-syllabus-template.docx))
+   - Full format with table of contents for online/hybrid courses
+   - Enhanced technology and virtual participation requirements
    - Detailed online communication guidelines
    - Virtual office hours and technical support information
+
+4. **Online/Hybrid Short Template** ([Download](csun-online-syllabus-template-notoc.docx))
+   - Concise two-column format for online/hybrid courses
+   - Streamlined layout without table of contents
+   - Clear virtual learning requirements and expectations
+   - Essential online/hybrid course components in compact form
 
 ## Features
 
@@ -107,6 +114,7 @@ The build script will:
    - Use the standard template for traditional in-person courses
    - Use the streamlined template for shorter syllabi
    - Use the online/hybrid template for remote or blended courses
+   - Use the table format template for a structured, easy-to-scan layout
 2. Open the .docx file in Microsoft Word
 3. Replace all text in [brackets] with your course information
 4. Update or remove sections as needed for your course
@@ -125,6 +133,7 @@ The templates are generated from Quarto documents (.qmd) which allows for easy m
 ## Questions or Issues?
 
 If you encounter any problems with the templates or have suggestions for improvement, please:
+
 1. Check the resources folder for current CSUN requirements
 2. Review the CONTRIBUTING.md file for guidance
 3. Open an issue in this repository if needed
