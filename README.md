@@ -4,7 +4,7 @@
 
 📚 **Important:** Before using these templates, please review the content of the this [website](https://w2.csun.edu/educational-policies-committee/resources/syllabus-best-practices) which contains a collection of resources from Academic First Year Experiences and Faculty Development regarding best practices for creating a high-quality syllabus.
 
-⚠️ **alert:** This repository was created and maintained by [Dr. Furtado](https://drfurtado.github.io/site/). If you find any discrepancy between these templates and existing published official templates from CSUN, please open an issue on this repository. I will review and update the templates as needed.
+⚠️ **alert:** This repository was created and is maintained by [Dr. Furtado](https://drfurtado.github.io/site/). If you find any discrepancy between these templates and existing published official templates from CSUN, please open an issue on this repository. I will review and update the templates as needed.
 
 This repository contains syllabus templates for California State University, Northridge (CSUN) faculty members, designed to meet all Faculty Senate requirements.
 
