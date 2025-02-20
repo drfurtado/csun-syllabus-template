@@ -1,0 +1,229 @@
+---
+title: "CSUN Syllabus Best Practices"
+format: pdf
+---
+
+# CSUN Syllabus Best Practices
+
+An A-Z Collection from Academic First Year Experiences and Faculty Development
+
+Undergraduate Studies supports excellence in teaching, learning, and community engagement for CSUN faculty, staff, and students. To that end, CSUN’s Faculty Development and Academic First Year Experiences are collaborating to offer CSUN faculty examples of syllabus best practices.
+
+And for the record, your syllabus is definitively yours. It's your intellectual property. You'll have your own ways of communicating with students. If you don't like the sample language here, don't use it. This website won't be offended.
+
+## Your syllabus: the basics and some sample language A-Z
+
+Start by reading the brief [CSUN Syllabus Policy](https://catalog.csun.edu/policies/syllabus-policy/) (updated 5/28/21), which sets minimum requirements for your syllabus. Then check out the additional topics and sample wording from the list below.
+
+## Absences
+
+If you (as faculty) miss a class, notify your chair (or the appropriate staff member in your department) and your students. When you can provide advance notification, everybody appreciates it. When you can't, everybody understands.
+
+## Academic honesty
+
+One of the most important steps in cultivating a course environment of academic integrity is by explicitly communicating your expectations for honesty. Include a section on your syllabus reminding students of the [CSUN Student Conduct Code](https://www.csun.edu/). Spell out the consequences you plan to impose if you find students acting without integrity. Consider stating your expectations for each major assignment throughout the semester (e.g., exams, papers, & group projects). Some faculty ask that students sign contracts or pledges.
+
+For more information (e.g., how to prevent dishonesty & how to respond when students do cheat) and to see sample syllabi, visit the [Faculty Development Teaching Toolkit](https://www.csun.edu/).
+
+## Attendance policies
+
+On your syllabus, tell your students how you plan to handle their absences: will you take away points after a certain number of absences? Or will you give participation points for students who are present? Put it in writing.
+
+CSUN has a two-paragraph policy governing attendance:
+
+1. **First Paragraph:**  
+   Students are expected to attend all class meetings. Students who are absent from the first 2 meetings of a class that meets more than once a week or from the first meeting of a class that meets once a week lose the right to remain on the class roll and must formally withdraw from the class, following University procedures and deadlines. Failure to formally withdraw from a class will result in the instructor assigning to the student a grade of “WU” (Unauthorized Withdrawal), which, in computing a student’s GPA, counts as a grade of “F.”
+
+2. **Second Paragraph:**  
+   In a compressed term or session of fewer than 15 weeks, the rule applies if the first class meeting is missed. An instructor may allow a student to continue in the class if the student notified the instructor that the absence would be temporary. If no instructor was assigned to the course in advance, students must notify the Department Chair that their absence from the class will be temporary.
+
+CSUN also has a Policy on Missed Classes Due to Participation in University-Approved Activities. Participation on CSUN sports teams is definitely included here. Key points of the policy:
+
+- When representing the university in official curriculum-related, university-approved activities requires a student to miss classes, faculty are expected to provide, within reason, opportunity to make up any work or exams that are missed.
+- Absence from class for official curriculum-related, university-approved activities does not relieve students from responsibility for any part of the course work required during the period of absence.
+
+## Basic Needs Assistance and Resources
+
+Many of our students face challenges with meeting basic needs: food insecurity, housing precarity/homelessness, mental health, healthcare, technology, and elder/childcare. Faculty are urged to consider adding the following language to their syllabi to support student equity, especially during the pandemic, and link to CSUN’s basic needs hub.
+
+**CSUN with A HEART**
+
+If you are facing challenges related to food insecurity, housing precarity/homelessness, mental health, access to technology, eldercare/childcare, or healthcare, you can find guidance, help, and resources from [CSUN with A HEART](https://www.csun.edu/heart).
+
+See also: Faculty Senate Resolution [Voluntarily Adding Student Supportive Language to Syllabi (PDF)](http://live-csu-northridge.pantheonsite.io) (February 2021)
+
+## Canvas: CSUN's online learning management system
+
+If you choose to use Canvas, take advantage of CSUN's very helpful technology classes and resources—including unlimited access to [LinkedIn Learning](https://www.linkedin.com/learning/) (formerly known as lynda.com) for students **AND** faculty.
+
+A best practice: in addition to the default Announcements feature that is part of every Canvas course, consider adding a discussion forum (title it "Got Questions?") so students can ask **AND** answer course-related questions (such as: "What is the new date for the midterm? I thought I wrote it down but I can't find it!" or "Are we supposed to bring our drafts to class this week or next?" etc.). Also consider adding an informal discussion forum (title it "Canvas Cafe") and invite students to communicate informally—about a movie they saw and loved, or their intention of going to CSUN's Big Show, or the existence of free Associated Students academic planners available during the first week of classes while supplies last...
+
+## Cell phones, tablets, laptops, and other devices
+
+If you have strong and/or definite feelings about students using cell phones, tablets, laptops, and other devices during your class, state your policy in your syllabus.
+
+## Classmate contact information
+
+Consider including two blank lines (or some blank space) on your syllabus near the top of page one. Ask students to get basic contact information from two classmates (such as an email address or phone number) so they can call on these classmates for help in case they miss a class meeting or have a simple question.
+
+## Contact information for you as the professor
+
+Include your name, office location, office hours, email address, and CSUN phone extension.
+
+If you have a policy about your usual time frame for responding to student emails, you might want to state it. (Help students understand whether you will respond immediately, within 24 hours, or before the next class meeting—whatever seems appropriate to you. Do not promise more than you can deliver, of course.)
+
+Inform students if you are willing to be contacted by them in other ways outside of class (for instance via video conferencing, discussion forums, wikis, online chat, document sharing, cloud file storage, social media).
+
+## Course description
+
+Include the complete course description in your syllabus. You can find the official course description in the [CSUN online catalog](https://catalog.csun.edu). You will likely have additional information, and perhaps even your own personal course description. Include it. Help students understand what lies ahead: tell them so they know what to expect and how to prepare.
+
+## Course name, number, meeting times, and room; course contents and how you'll evaluate them.
+
+This information belongs on your syllabus, along with course requirements and methods of evaluation. List the major assignments and how many points (and/or what percentage) each contributes to the total grade. State your grading criteria.
+
+## DRES sample statement: accommodating students with disabilities
+
+If you have a disability and need accommodations, please register with the Disability Resources and Educational Services (DRES) office or the National Center on Deafness (NCOD).  
+- The DRES office is located in Bayramian Hall, room 110 and can be reached at 818.677.2684.  
+- NCOD is located on Bertrand Street in Jeanne Chisholm Hall and can be reached at 818.677.2611.  
+
+If you would like to discuss your need for accommodations with me, please contact me to set up an appointment.
+
+## General Education course goals (student learning outcomes)
+
+- [GE rules for students](https://catalog.csun.edu)  
+- [GE student learning outcomes (SLOs)](https://catalog.csun.edu)
+
+## Grading
+
+### Grading Criteria
+
+All grading criteria must be included on the syllabus.
+
+### Plus/Minus Grading
+
+I will/will not use plus/minus grading in this course.  
+*(You get to choose but you are required to state your choice in the syllabus.)*
+
+### Grading for Courses with Corequisite Labs/Discussions
+
+If students are assigned the same grade for a linked lecture and lab/activity/discussion, the grading practice must be clearly stated on both syllabi.
+
+## Information competence (IC) designation
+
+If your class carries the information competence (IC) designation in the catalog, your syllabus should include [the IC SLOs](https://catalog.csun.edu) and your course should enable students to meet those SLOs.
+
+**Information Competence Goal:**  
+Students will progressively develop information competence skills throughout their undergraduate career by developing a basic understanding of information retrieval tools and practices as well as improving their ability to evaluate and synthesize information ethically.
+
+**Information Competence Student Learning Outcomes:**  
+Students will:
+1. Determine the nature and extent of information needed.
+2. Demonstrate effective search strategies for finding information using a variety of sources and methods.
+3. Locate, retrieve and evaluate a variety of relevant information, including print and electronic formats.
+4. Organize and synthesize information in order to communicate effectively.
+5. Explain the legal and ethical dimensions of the use of information.
+
+## LRC: the Learning Resource Center
+
+Students can get free help on campus at the LRC, including:
+- Tutoring in multiple subjects,
+- One-on-one help with writing and grammar, and
+- Reading and writing workshops
+
+The LRC offers sample language you can include in your syllabus on their Faculty Resources page at the [LRC Faculty Resources](https://www.csun.edu/undergraduate-studies/learning-resource-center/faculty-resources).
+
+## Mental Health Resources
+
+[University Counseling Services](https://www.csun.edu) (UCS) is a mental health center for students enrolled at CSUN. UCS provides a range of high-quality mental health services including:
+- Initial evaluations
+- Short-term counseling and psychotherapy
+- Wellness Workshops
+- Group treatment
+- Psychiatric services
+- Crisis/urgent care services
+- Case management
+
+UCS is located in Bayramian Hall 520 and can be reached at (818) 677-2366, Option 1.
+
+- **Suicide Prevention Hotline:** (800) 273-TALK (8255) or dial 988 to access the National Suicide and Crisis Lifeline 24 hours a day.
+- **Crisis Text Line:** Text "START" to 741-741 (Free, 24/7, confidential).
+
+Scan the following QR code for more information on resources available:
+
+![A QR code meant to be scanned via a phone that directs users to resources for mental health services at the UCS](#)
+
+## myCSUNTablet classes
+
+If you're teaching a CSUN Tablet class (in which students are required to use iPads), make sure you're familiar with the [myCSUNTablet faculty information page](https://www.csun.edu).
+
+## Office hours
+
+Article 20 of the Unit 3 faculty contract requires that we keep office hours. And you will,
+ of course, include the time and location for your hours in your syllabus.
+
+At CSUN, there is no campus-wide policy on how many hours to offer each week. Some academic colleges have their own policies; others do not. Talk to your chair or the associate dean of your college about what is required of you.
+
+If you need to cancel your office hours on a particular day, notify the staff in your department office. If you are teaching an online or hybrid class (designated OF, OC, or OH in the Schedule of Classes), consult your chair about virtual office hours. (Also see the [Online and Hybrid Courses Policy](http://www.csun.edu/senate/policies/onlinehybridcourses.pdf).)
+
+## Online, hybrid, and myCSUNtablet classes
+
+**Online classes:** This course meets online. Before you enroll, take CSUN's Student Online Readiness Survey to see whether your learning preferences and technology skills are likely to help you succeed as an online learner. Not sure if your course will be Online? Check the "notes" in SOLAR Class Search for more information or review the new course designations for hybrid and online classes.
+
+**Hybrid classes:** This course meets partly online. Before you enroll, take CSUN's Student Online Readiness Survey to see whether your learning preferences and technology skills are likely to help you succeed as an online learner. Not sure if your course will be Hybrid or Online? Check the "notes" in SOLAR Class Search for more information or review the new course designations.
+
+**myCSUNtablet classes:** This is a myCSUNtablet class. To participate in this class, you must bring an iPad or iPad mini running iOS 6 or higher with a minimum of 32 GB storage. If you don't already own one, you can purchase an iPad at the Matador Bookstore or from your preferred Apple retailer.
+
+## Participation
+
+State your requirements or wishes for student participation. Share your expectations for how students should engage with the course.
+
+## Questions from students
+
+If you have questions about the course or this syllabus, ask during office hours or by email. Contact details are provided above, and I will try to respond within the stated time frame.
+
+## Required texts and other materials
+
+You are responsible for acquiring the following required readings and materials for this course. *(I have placed a copy of the readings on reserve in the University Library.)*
+
+## Savings clause: "this syllabus is subject to change...."
+
+This syllabus is subject to change. I will make every effort to notify you in advance about any changes.
+
+## Service learning classes
+
+CSUN's Office of Community Engagement has developed a thorough set of [Helpful Hints for Creating a Service Learning Syllabus (PDF)](http://live-csu-northridge.pantheonsite.io). The document recommends, among other things, that you "create and distribute a syllabus that clearly explains or defines the service learning goals, objectives, criteria, and requirements" and that you "include the official campus definition of Service Learning" (which is part of the Helpful Hints document).
+
+## Title IX: Sexual Misconduct Disclosures/Maintaining a Respectful Learning Environment
+
+CSUN's Office of Equity and Compliance has provided [sample statements you can use (PDF)](http://live-csu-northridge.pantheonsite.io) to help students understand how our campus handles Title IX issues and the role that the Office of Equity and Compliance expects faculty to play.  
+*Equity and Compliance recognizes that the statements are rather lengthy – faculty can adopt and customize the language in ways suitable to their teaching styles, but the core information should remain, including the responsibility of faculty to share such info with the Title IX Coordinator, and that students can seek confidential support with our Campus Care Advocate.*
+
+### Syllabus Resources
+
+- [Syllabus Rubric with CSUN Policy Checklist (choose PDF or DOCX)](http://live-csu-northridge.pantheonsite.io)
+- [Syllabus Toolkit from Faculty Development](https://www.csun.edu)
+- [Helpful Hints for Creating a Service Learning Syllabus (PDF)](http://live-csu-northridge.pantheonsite.io)
+- [Catalog](https://catalog.csun.edu)
+- [CSUN Syllabus Policy](https://catalog.csun.edu)
+- [CSUN Syllabus Policy: what changed in 2015? (PDF)](http://live-csu-northridge.pantheonsite.io)
+- [DRES: Disability Resources](https://www.csun.edu)
+- [Faculty Affairs Memos](https://www.csun.edu)
+- [Faculty Development: Syllabus Ideas and Policies](https://www.csun.edu)
+- [Grievance and Grade Appeal Procedures](https://www.csun.edu)
+- [Grievance and Grade Appeal: Faculty Reply Form](http://live-csu-northridge.pantheonsite.io)
+- [Guide to Creating an Accessible Syllabus (DOCX)](http://live-csu-northridge.pantheonsite.io)
+- [myCSUNtablet: Information for Faculty](https://www.csun.edu)
+- [Recommended Breaks in Classes](http://live-csu-northridge.pantheonsite.io)
+- [Senate Policies and Documents Index](https://www.csun.edu)
+
+![Syllabus icon](#)
+
+#### Syllabus Articles
+
+- [Yes, Your Syllabus Is Way Too Long](https://www.chronicle.com)
+- [Seven Ways to Make Your Syllabus More Relevant](https://www.facultyfocus.com)
+- [Who Decides What Must Be on a Syllabus?](https://www.insidehighered.com)
+
+Source: [An A-Z Collection from Academic First Year Experiences and Faculty Development](https://w2.csun.edu/educational-policies-committee/resources/syllabus-best-practices)

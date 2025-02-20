@@ -1,23 +1,30 @@
 # CSUN Syllabus Templates
 
-This repository contains syllabus templates for California State University, Northridge (CSUN) faculty members, designed to meet all Faculty Senate[^1] requirements.
+⚠️ **Note:** When opening the generated .docx files in Microsoft Word, you may see a message asking "This document contains fields that may refer to other files. Do you want to update the fields in this document?" This is normal and expected due to the table of contents. Click "Yes" to ensure all document fields are up to date.
+
+📚 **Important:** Before using these templates, please review the content of the this [website](https://w2.csun.edu/educational-policies-committee/resources/syllabus-best-practices) which contains a collection of resources from Academic First Year Experiences and Faculty Development regarding best practices for creating a high-quality syllabus.
+
+⚠️ **alert:** This repository was created and maintained by [Dr. Furtado](https://drfurtado.github.io/site/). If you find any discrepancy between these templates and existing published official templates from CSUN, please open an issue on this repository. I will review and update the templates as needed.
+
+This repository contains syllabus templates for California State University, Northridge (CSUN) faculty members, designed to meet all Faculty Senate requirements.
+
 
 ## Two Ways to Use These Templates
 
 ### Option 1: Direct Download (Recommended for Most Users)
+
 For faculty who just want to use the templates:
 
 1. Click one of these download links:
-   - 📝 [Traditional Long Template](csun-syllabus-template.docx?raw=true) - Full format with table of contents
-   - 📄 [Traditional Short Template](csun-syllabus-template-notoc.docx?raw=true) - Concise format with two-column tables
-   - 💻 [Online/Hybrid Long Template](csun-online-syllabus-template.docx?raw=true) - Full online/hybrid format with TOC
-   - 🔄 [Online/Hybrid Short Template](csun-online-syllabus-template-notoc.docx?raw=true) - Concise online/hybrid with two-column tables
+   - 📝 [Traditional Course Template](csun-syllabus-template-traditional.docx?raw=true) - Comprehensive template for traditional courses
+   - 💻 [Online/Hybrid Course Template](csun-syllabus-template-online_hybrid.docx?raw=true) - Comprehensive template for online/hybrid courses
 
 2. Open in Microsoft Word and fill in your course information
 
 That's it! No technical setup required.
 
 ### Option 2: Build from Source
+
 For developers or users who want to customize the template generation:
 
 ```bash
@@ -73,31 +80,50 @@ The build script will:
 - Generate all template variations using Quarto
 - Place output files in the current directory
 
-## Available Templates
+## Overview
+This repository contains Quarto templates for creating consistent CSUN course syllabi. Two main templates are provided:
+1. Traditional Course Template (`csun-syllabus-template-traditional.qmd`)
+2. Online/Hybrid Course Template (`csun-syllabus-template-online_hybrid.qmd`)
 
-1. **Traditional Long Template** ([Download](csun-syllabus-template.docx))
-   - Full format with table of contents and section numbering
-   - Detailed sections with single-column tables
-   - Comprehensive sections for traditional course delivery
-   - Meets all Faculty Senate requirements
+## Recent Updates
+- Created two comprehensive templates (traditional and online/hybrid)
+- Added dedicated "Online/Hybrid Specific Information" section for online/hybrid courses
+- Improved grading scale presentation with a 6-column layout
+- Added Learning Management System section to both templates
+- Enhanced attendance policy section with specific hybrid course considerations
+- Maintained consistent core content across both templates while accommodating modality-specific needs
 
-2. **Traditional Short Template** ([Download](csun-syllabus-template-notoc.docx))
-   - Concise format with two-column tables
-   - No table of contents or section numbering
-   - Same comprehensive content in a more compact layout
-   - Ideal for shorter syllabi or when a simpler format is preferred
+## Template Features
 
-3. **Online/Hybrid Long Template** ([Download](csun-online-syllabus-template.docx))
-   - Full format with table of contents for online/hybrid courses
-   - Enhanced technology and virtual participation requirements
-   - Detailed online communication guidelines
-   - Virtual office hours and technical support information
+### Common Elements (Both Templates)
+- Course and instructor information
+- Student learning outcomes
+- Grading policies and scale
+- University policies and resources
+- Basic needs support
+- Contact information exchange
+- Learning Management System information
 
-4. **Online/Hybrid Short Template** ([Download](csun-online-syllabus-template-notoc.docx))
-   - Concise two-column format for online/hybrid courses
-   - Streamlined layout without table of contents
-   - Clear virtual learning requirements and expectations
-   - Essential online/hybrid course components in compact form
+### Online/Hybrid-Specific Features
+The online/hybrid template includes additional sections for:
+
+- Technical requirements
+- Virtual office hours
+- Online participation requirements
+- Communication guidelines
+- Technical support
+- Course structure (synchronous/asynchronous components)
+
+## Usage
+1. Choose the appropriate template based on your course modality
+2. Fill in the bracketed sections with your course-specific information
+3. Remove any sections that don't apply to your course
+4. Generate the final document using Quarto
+
+## Requirements
+- Quarto
+- A text editor
+- Microsoft Word (for viewing the generated .docx files)
 
 ## Features
 
@@ -130,12 +156,31 @@ The templates are generated from Quarto documents (.qmd) which allows for easy m
 - `resources/` - Official CSUN syllabus requirements and guidelines
 - Python and PowerShell scripts for template generation
 
+## Best Practices
+- Keep all sections that are relevant to your course
+- Update the course schedule regularly
+- Include all required university policies
+- Maintain clear communication guidelines
+- Review and update contact information each semester
+
+## Contributing
+Feel free to suggest improvements or report issues through GitHub issues.
+
+## License
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- NonCommercial — You may not use the material for commercial purposes.
+
+![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)
+
 ## Questions or Issues?
 
 If you encounter any problems with the templates or have suggestions for improvement, please:
 
-1. Check the resources folder for current CSUN requirements
-2. Review the CONTRIBUTING.md file for guidance
-3. Open an issue in this repository if needed
-
-[^1]: For detailed syllabus requirements, visit the Faculty Senate guidelines at https://canvas.csun.edu/courses/93131/pages/syllabus
+1. Open an issue in this repository if needed

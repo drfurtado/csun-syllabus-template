@@ -71,4 +71,6 @@ Do not assume students are technology experts. Although they may appear digitall
 Be as detailed as possible in clarifying your expectations for students and any instructions about the course structure or the use of technology. In a fully or mostly online class, students will likely not have direct access to you or receive an explanation of the syllabus in class.
 Humanize your syllabus. If your students have ever told you something like, "you're nothing like your syllabus" then pay attention to this disconnect, especially for online courses. Click to the next page to learn some quick ways to change the tone of your syllabus (learning-centered syllabus) to be more approachable, reflecting the authentic you. 
  
+ ## What should be on all templates
+
  

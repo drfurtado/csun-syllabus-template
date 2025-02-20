@@ -1,0 +1,637 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={CSUN Syllabus Best Practices},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{CSUN Syllabus Best Practices}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+
+\section{CSUN Syllabus Best
+Practices}\label{csun-syllabus-best-practices}
+
+An A-Z Collection from Academic First Year Experiences and Faculty
+Development
+
+Undergraduate Studies supports excellence in teaching, learning, and
+community engagement for CSUN faculty, staff, and students. To that end,
+CSUN's Faculty Development and Academic First Year Experiences are
+collaborating to offer CSUN faculty examples of syllabus best practices.
+
+And for the record, your syllabus is definitively yours. It's your
+intellectual property. You'll have your own ways of communicating with
+students. If you don't like the sample language here, don't use it. This
+website won't be offended.
+
+\subsection{Your syllabus: the basics and some sample language
+A-Z}\label{your-syllabus-the-basics-and-some-sample-language-a-z}
+
+Start by reading the brief
+\href{https://catalog.csun.edu/policies/syllabus-policy/}{CSUN Syllabus
+Policy} (updated 5/28/21), which sets minimum requirements for your
+syllabus. Then check out the additional topics and sample wording from
+the list below.
+
+\subsection{Absences}\label{absences}
+
+If you (as faculty) miss a class, notify your chair (or the appropriate
+staff member in your department) and your students. When you can provide
+advance notification, everybody appreciates it. When you can't,
+everybody understands.
+
+\subsection{Academic honesty}\label{academic-honesty}
+
+One of the most important steps in cultivating a course environment of
+academic integrity is by explicitly communicating your expectations for
+honesty. Include a section on your syllabus reminding students of the
+\href{https://www.csun.edu/}{CSUN Student Conduct Code}. Spell out the
+consequences you plan to impose if you find students acting without
+integrity. Consider stating your expectations for each major assignment
+throughout the semester (e.g., exams, papers, \& group projects). Some
+faculty ask that students sign contracts or pledges.
+
+For more information (e.g., how to prevent dishonesty \& how to respond
+when students do cheat) and to see sample syllabi, visit the
+\href{https://www.csun.edu/}{Faculty Development Teaching Toolkit}.
+
+\subsection{Attendance policies}\label{attendance-policies}
+
+On your syllabus, tell your students how you plan to handle their
+absences: will you take away points after a certain number of absences?
+Or will you give participation points for students who are present? Put
+it in writing.
+
+CSUN has a two-paragraph policy governing attendance:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{First Paragraph:}\\
+  Students are expected to attend all class meetings. Students who are
+  absent from the first 2 meetings of a class that meets more than once
+  a week or from the first meeting of a class that meets once a week
+  lose the right to remain on the class roll and must formally withdraw
+  from the class, following University procedures and deadlines. Failure
+  to formally withdraw from a class will result in the instructor
+  assigning to the student a grade of ``WU'' (Unauthorized Withdrawal),
+  which, in computing a student's GPA, counts as a grade of ``F.''
+\item
+  \textbf{Second Paragraph:}\\
+  In a compressed term or session of fewer than 15 weeks, the rule
+  applies if the first class meeting is missed. An instructor may allow
+  a student to continue in the class if the student notified the
+  instructor that the absence would be temporary. If no instructor was
+  assigned to the course in advance, students must notify the Department
+  Chair that their absence from the class will be temporary.
+\end{enumerate}
+
+CSUN also has a Policy on Missed Classes Due to Participation in
+University-Approved Activities. Participation on CSUN sports teams is
+definitely included here. Key points of the policy:
+
+\begin{itemize}
+\tightlist
+\item
+  When representing the university in official curriculum-related,
+  university-approved activities requires a student to miss classes,
+  faculty are expected to provide, within reason, opportunity to make up
+  any work or exams that are missed.
+\item
+  Absence from class for official curriculum-related,
+  university-approved activities does not relieve students from
+  responsibility for any part of the course work required during the
+  period of absence.
+\end{itemize}
+
+\subsection{Basic Needs Assistance and
+Resources}\label{basic-needs-assistance-and-resources}
+
+Many of our students face challenges with meeting basic needs: food
+insecurity, housing precarity/homelessness, mental health, healthcare,
+technology, and elder/childcare. Faculty are urged to consider adding
+the following language to their syllabi to support student equity,
+especially during the pandemic, and link to CSUN's basic needs hub.
+
+\textbf{CSUN with A HEART}
+
+If you are facing challenges related to food insecurity, housing
+precarity/homelessness, mental health, access to technology,
+eldercare/childcare, or healthcare, you can find guidance, help, and
+resources from \href{https://www.csun.edu/heart}{CSUN with A HEART}.
+
+See also: Faculty Senate Resolution
+\href{http://live-csu-northridge.pantheonsite.io}{Voluntarily Adding
+Student Supportive Language to Syllabi (PDF)} (February 2021)
+
+\subsection{Canvas: CSUN's online learning management
+system}\label{canvas-csuns-online-learning-management-system}
+
+If you choose to use Canvas, take advantage of CSUN's very helpful
+technology classes and resources---including unlimited access to
+\href{https://www.linkedin.com/learning/}{LinkedIn Learning} (formerly
+known as lynda.com) for students \textbf{AND} faculty.
+
+A best practice: in addition to the default Announcements feature that
+is part of every Canvas course, consider adding a discussion forum
+(title it ``Got Questions?'') so students can ask \textbf{AND} answer
+course-related questions (such as: ``What is the new date for the
+midterm? I thought I wrote it down but I can't find it!'' or ``Are we
+supposed to bring our drafts to class this week or next?'' etc.). Also
+consider adding an informal discussion forum (title it ``Canvas Cafe'')
+and invite students to communicate informally---about a movie they saw
+and loved, or their intention of going to CSUN's Big Show, or the
+existence of free Associated Students academic planners available during
+the first week of classes while supplies last\ldots{}
+
+\subsection{Cell phones, tablets, laptops, and other
+devices}\label{cell-phones-tablets-laptops-and-other-devices}
+
+If you have strong and/or definite feelings about students using cell
+phones, tablets, laptops, and other devices during your class, state
+your policy in your syllabus.
+
+\subsection{Classmate contact
+information}\label{classmate-contact-information}
+
+Consider including two blank lines (or some blank space) on your
+syllabus near the top of page one. Ask students to get basic contact
+information from two classmates (such as an email address or phone
+number) so they can call on these classmates for help in case they miss
+a class meeting or have a simple question.
+
+\subsection{Contact information for you as the
+professor}\label{contact-information-for-you-as-the-professor}
+
+Include your name, office location, office hours, email address, and
+CSUN phone extension.
+
+If you have a policy about your usual time frame for responding to
+student emails, you might want to state it. (Help students understand
+whether you will respond immediately, within 24 hours, or before the
+next class meeting---whatever seems appropriate to you. Do not promise
+more than you can deliver, of course.)
+
+Inform students if you are willing to be contacted by them in other ways
+outside of class (for instance via video conferencing, discussion
+forums, wikis, online chat, document sharing, cloud file storage, social
+media).
+
+\subsection{Course description}\label{course-description}
+
+Include the complete course description in your syllabus. You can find
+the official course description in the
+\href{https://catalog.csun.edu}{CSUN online catalog}. You will likely
+have additional information, and perhaps even your own personal course
+description. Include it. Help students understand what lies ahead: tell
+them so they know what to expect and how to prepare.
+
+\subsection{Course name, number, meeting times, and room; course
+contents and how you'll evaluate
+them.}\label{course-name-number-meeting-times-and-room-course-contents-and-how-youll-evaluate-them.}
+
+This information belongs on your syllabus, along with course
+requirements and methods of evaluation. List the major assignments and
+how many points (and/or what percentage) each contributes to the total
+grade. State your grading criteria.
+
+\subsection{DRES sample statement: accommodating students with
+disabilities}\label{dres-sample-statement-accommodating-students-with-disabilities}
+
+If you have a disability and need accommodations, please register with
+the Disability Resources and Educational Services (DRES) office or the
+National Center on Deafness (NCOD).\\
+- The DRES office is located in Bayramian Hall, room 110 and can be
+reached at 818.677.2684.\\
+- NCOD is located on Bertrand Street in Jeanne Chisholm Hall and can be
+reached at 818.677.2611.
+
+If you would like to discuss your need for accommodations with me,
+please contact me to set up an appointment.
+
+\subsection{General Education course goals (student learning
+outcomes)}\label{general-education-course-goals-student-learning-outcomes}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://catalog.csun.edu}{GE rules for students}\\
+\item
+  \href{https://catalog.csun.edu}{GE student learning outcomes (SLOs)}
+\end{itemize}
+
+\subsection{Grading}\label{grading}
+
+\subsubsection{Grading Criteria}\label{grading-criteria}
+
+All grading criteria must be included on the syllabus.
+
+\subsubsection{Plus/Minus Grading}\label{plusminus-grading}
+
+I will/will not use plus/minus grading in this course.\\
+\emph{(You get to choose but you are required to state your choice in
+the syllabus.)}
+
+\subsubsection{Grading for Courses with Corequisite
+Labs/Discussions}\label{grading-for-courses-with-corequisite-labsdiscussions}
+
+If students are assigned the same grade for a linked lecture and
+lab/activity/discussion, the grading practice must be clearly stated on
+both syllabi.
+
+\subsection{Information competence (IC)
+designation}\label{information-competence-ic-designation}
+
+If your class carries the information competence (IC) designation in the
+catalog, your syllabus should include
+\href{https://catalog.csun.edu}{the IC SLOs} and your course should
+enable students to meet those SLOs.
+
+\textbf{Information Competence Goal:}\\
+Students will progressively develop information competence skills
+throughout their undergraduate career by developing a basic
+understanding of information retrieval tools and practices as well as
+improving their ability to evaluate and synthesize information
+ethically.
+
+\textbf{Information Competence Student Learning Outcomes:}\\
+Students will: 1. Determine the nature and extent of information needed.
+2. Demonstrate effective search strategies for finding information using
+a variety of sources and methods. 3. Locate, retrieve and evaluate a
+variety of relevant information, including print and electronic formats.
+4. Organize and synthesize information in order to communicate
+effectively. 5. Explain the legal and ethical dimensions of the use of
+information.
+
+\subsection{LRC: the Learning Resource
+Center}\label{lrc-the-learning-resource-center}
+
+Students can get free help on campus at the LRC, including: - Tutoring
+in multiple subjects, - One-on-one help with writing and grammar, and -
+Reading and writing workshops
+
+The LRC offers sample language you can include in your syllabus on their
+Faculty Resources page at the
+\href{https://www.csun.edu/undergraduate-studies/learning-resource-center/faculty-resources}{LRC
+Faculty Resources}.
+
+\subsection{Mental Health Resources}\label{mental-health-resources}
+
+\href{https://www.csun.edu}{University Counseling Services} (UCS) is a
+mental health center for students enrolled at CSUN. UCS provides a range
+of high-quality mental health services including: - Initial evaluations
+- Short-term counseling and psychotherapy - Wellness Workshops - Group
+treatment - Psychiatric services - Crisis/urgent care services - Case
+management
+
+UCS is located in Bayramian Hall 520 and can be reached at (818)
+677-2366, Option 1.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Suicide Prevention Hotline:} (800) 273-TALK (8255) or dial 988
+  to access the National Suicide and Crisis Lifeline 24 hours a day.
+\item
+  \textbf{Crisis Text Line:} Text ``START'' to 741-741 (Free, 24/7,
+  confidential).
+\end{itemize}
+
+Scan the following QR code for more information on resources available:
+
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{\#.pdf}}
+
+}
+
+\caption{A QR code meant to be scanned via a phone that directs users to
+resources for mental health services at the UCS}
+
+\end{figure}%
+
+\subsection{myCSUNTablet classes}\label{mycsuntablet-classes}
+
+If you're teaching a CSUN Tablet class (in which students are required
+to use iPads), make sure you're familiar with the
+\href{https://www.csun.edu}{myCSUNTablet faculty information page}.
+
+\subsection{Office hours}\label{office-hours}
+
+Article 20 of the Unit 3 faculty contract requires that we keep office
+hours. And you will, of course, include the time and location for your
+hours in your syllabus.
+
+At CSUN, there is no campus-wide policy on how many hours to offer each
+week. Some academic colleges have their own policies; others do not.
+Talk to your chair or the associate dean of your college about what is
+required of you.
+
+If you need to cancel your office hours on a particular day, notify the
+staff in your department office. If you are teaching an online or hybrid
+class (designated OF, OC, or OH in the Schedule of Classes), consult
+your chair about virtual office hours. (Also see the
+\href{http://www.csun.edu/senate/policies/onlinehybridcourses.pdf}{Online
+and Hybrid Courses Policy}.)
+
+\subsection{Online, hybrid, and myCSUNtablet
+classes}\label{online-hybrid-and-mycsuntablet-classes}
+
+\textbf{Online classes:} This course meets online. Before you enroll,
+take CSUN's Student Online Readiness Survey to see whether your learning
+preferences and technology skills are likely to help you succeed as an
+online learner. Not sure if your course will be Online? Check the
+``notes'' in SOLAR Class Search for more information or review the new
+course designations for hybrid and online classes.
+
+\textbf{Hybrid classes:} This course meets partly online. Before you
+enroll, take CSUN's Student Online Readiness Survey to see whether your
+learning preferences and technology skills are likely to help you
+succeed as an online learner. Not sure if your course will be Hybrid or
+Online? Check the ``notes'' in SOLAR Class Search for more information
+or review the new course designations.
+
+\textbf{myCSUNtablet classes:} This is a myCSUNtablet class. To
+participate in this class, you must bring an iPad or iPad mini running
+iOS 6 or higher with a minimum of 32 GB storage. If you don't already
+own one, you can purchase an iPad at the Matador Bookstore or from your
+preferred Apple retailer.
+
+\subsection{Participation}\label{participation}
+
+State your requirements or wishes for student participation. Share your
+expectations for how students should engage with the course.
+
+\subsection{Questions from students}\label{questions-from-students}
+
+If you have questions about the course or this syllabus, ask during
+office hours or by email. Contact details are provided above, and I will
+try to respond within the stated time frame.
+
+\subsection{Required texts and other
+materials}\label{required-texts-and-other-materials}
+
+You are responsible for acquiring the following required readings and
+materials for this course. \emph{(I have placed a copy of the readings
+on reserve in the University Library.)}
+
+\subsection{Savings clause: ``this syllabus is subject to
+change\ldots.''}\label{savings-clause-this-syllabus-is-subject-to-change.}
+
+This syllabus is subject to change. I will make every effort to notify
+you in advance about any changes.
+
+\subsection{Service learning classes}\label{service-learning-classes}
+
+CSUN's Office of Community Engagement has developed a thorough set of
+\href{http://live-csu-northridge.pantheonsite.io}{Helpful Hints for
+Creating a Service Learning Syllabus (PDF)}. The document recommends,
+among other things, that you ``create and distribute a syllabus that
+clearly explains or defines the service learning goals, objectives,
+criteria, and requirements'' and that you ``include the official campus
+definition of Service Learning'' (which is part of the Helpful Hints
+document).
+
+\subsection{Title IX: Sexual Misconduct Disclosures/Maintaining a
+Respectful Learning
+Environment}\label{title-ix-sexual-misconduct-disclosuresmaintaining-a-respectful-learning-environment}
+
+CSUN's Office of Equity and Compliance has provided
+\href{http://live-csu-northridge.pantheonsite.io}{sample statements you
+can use (PDF)} to help students understand how our campus handles Title
+IX issues and the role that the Office of Equity and Compliance expects
+faculty to play.\\
+\emph{Equity and Compliance recognizes that the statements are rather
+lengthy -- faculty can adopt and customize the language in ways suitable
+to their teaching styles, but the core information should remain,
+including the responsibility of faculty to share such info with the
+Title IX Coordinator, and that students can seek confidential support
+with our Campus Care Advocate.}
+
+\subsubsection{Syllabus Resources}\label{syllabus-resources}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{http://live-csu-northridge.pantheonsite.io}{Syllabus Rubric with
+  CSUN Policy Checklist (choose PDF or DOCX)}
+\item
+  \href{https://www.csun.edu}{Syllabus Toolkit from Faculty Development}
+\item
+  \href{http://live-csu-northridge.pantheonsite.io}{Helpful Hints for
+  Creating a Service Learning Syllabus (PDF)}
+\item
+  \href{https://catalog.csun.edu}{Catalog}
+\item
+  \href{https://catalog.csun.edu}{CSUN Syllabus Policy}
+\item
+  \href{http://live-csu-northridge.pantheonsite.io}{CSUN Syllabus
+  Policy: what changed in 2015? (PDF)}
+\item
+  \href{https://www.csun.edu}{DRES: Disability Resources}
+\item
+  \href{https://www.csun.edu}{Faculty Affairs Memos}
+\item
+  \href{https://www.csun.edu}{Faculty Development: Syllabus Ideas and
+  Policies}
+\item
+  \href{https://www.csun.edu}{Grievance and Grade Appeal Procedures}
+\item
+  \href{http://live-csu-northridge.pantheonsite.io}{Grievance and Grade
+  Appeal: Faculty Reply Form}
+\item
+  \href{http://live-csu-northridge.pantheonsite.io}{Guide to Creating an
+  Accessible Syllabus (DOCX)}
+\item
+  \href{https://www.csun.edu}{myCSUNtablet: Information for Faculty}
+\item
+  \href{http://live-csu-northridge.pantheonsite.io}{Recommended Breaks
+  in Classes}
+\item
+  \href{https://www.csun.edu}{Senate Policies and Documents Index}
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{\#.pdf}}
+
+}
+
+\caption{Syllabus icon}
+
+\end{figure}%
+
+\paragraph{Syllabus Articles}\label{syllabus-articles}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.chronicle.com}{Yes, Your Syllabus Is Way Too Long}
+\item
+  \href{https://www.facultyfocus.com}{Seven Ways to Make Your Syllabus
+  More Relevant}
+\item
+  \href{https://www.insidehighered.com}{Who Decides What Must Be on a
+  Syllabus?}
+\end{itemize}
+
+Source:
+\href{https://w2.csun.edu/educational-policies-committee/resources/syllabus-best-practices}{An
+A-Z Collection from Academic First Year Experiences and Faculty
+Development}
+
+
+
+
+\end{document}

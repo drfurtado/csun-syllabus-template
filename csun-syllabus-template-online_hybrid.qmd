@@ -1,0 +1,196 @@
+---
+title: "CSUN Syllabus Template (Online/Hybrid)"
+format:
+  docx:
+    reference-doc: csun-syllabus-reference.docx
+    toc: true
+    number-sections: true
+---
+
+# Course Information
+
+| | |
+|---------------------------|--------------------------------------------------|
+| Course | [Course Subject and Number] - [Course Title] |
+| Term | [Semester and Year] |
+| Meeting Times | [Synchronous meeting times or "Asynchronous"] |
+| Location | [Online/Hybrid - specify platform(s)] |
+| GE Status | [If applicable: List GE designation] |
+| IC Status | [If applicable: List IC designation] |
+
+# Instructor Information
+
+| | |
+|---------------------------|--------------------------------------------------|
+| Instructor | [Your Name] |
+| Office Location | [Building and Room Number] |
+| Office Hours | [Days and Times] |
+| Email | [your.email@csun.edu] |
+| Response Time | [Expected email response time] |
+| Office Phone | [(818) XXX-XXXX] |
+| Department Contact | [For emergencies: department phone/email] |
+
+# Course Description and Prerequisites
+
+| | |
+|---------------------------|--------------------------------------------------|
+| Catalog Description | [Insert official catalog description] |
+| Additional Description | [Optional: Your expanded description] |
+| Prerequisites | [List prerequisites or state "None"] |
+| Required Materials | [Textbooks, supplies, etc.] |
+| Corequisites | [If applicable: List corequisite courses] |
+
+# Student Learning Outcomes
+
+Upon completion of this course, students will be able to:
+
+1. [Learning Outcome 1]
+2. [Learning Outcome 2]
+3. [Learning Outcome 3]
+
+[If GE course, add:]
+General Education Student Learning Outcomes:
+- [List relevant GE SLOs]
+
+[If IC course, add:]
+Information Competence Student Learning Outcomes:
+1. Determine information needs
+2. Access information effectively and efficiently
+3. Evaluate information critically
+4. Use information effectively
+5. Use information ethically and legally
+
+# Course Requirements and Grading
+
+## Course Components
+
+| Component | Description | Points/Percentage |
+|-----------|-------------|------------------|
+| Attendance & Participation | [Requirements] | [XX%] |
+| Assignments | [Description] | [XX%] |
+| Projects | [Details] | [XX%] |
+| **Total** | | **100%** |
+
+## Grading Scale
+
+| Grade | % | Grade | % | Grade | % | Grade | % |
+|:------|:--|:------|:--|:------|:--|:------|:--|
+| A     | 93-100 | A-    | 90-92 | B+    | 87-89 | B     | 83-86 |
+| B-    | 80-82  | C+    | 77-79 | C     | 73-76 | C-    | 70-72 |
+| D+    | 67-69  | D     | 63-66 | D-    | 60-62 | F     | <60   |
+
+# Course Policies
+
+## Attendance and Participation (Hybrid)
+Students are expected to attend all class meetings. According to CSUN policy:
+- Students absent from the first 2 meetings may be dropped from the class
+- Absence from university-approved activities will be accommodated with makeup opportunities
+- Students who miss class are responsible for obtaining any missed information
+- [Additional specific attendance requirements]
+
+## Assignment Submission
+- All assignments must be submitted on time
+- Late work policy: [specify]
+- Format requirements: [specify]
+- [Additional submission guidelines]
+
+## Academic Honesty
+This course adheres to the CSUN Academic Honesty Policy. Academic dishonesty includes:
+- Cheating
+- Fabrication
+- Facilitating academic dishonesty
+- Plagiarism
+For more information, visit [CSUN Academic Honesty Policy](https://catalog.csun.edu/policies/academic-dishonesty/).
+
+## Communication Policy
+- Emails will be responded to within [timeframe]
+- For course-related questions, use the "Got Questions?" forum on Canvas
+- For personal matters, email me directly
+- Office hours are available [in-person/by appointment]
+
+# University Policies and Resources
+
+## Basic Needs Support
+If you are experiencing food insecurity, housing insecurity, or other hardships, visit [CSUN with A HEART](https://www.csun.edu/heart) for support and resources.
+
+## Disability Resources
+If you have a disability and need accommodations, please register with:
+- Disability Resources and Educational Services (DRES)
+  - Location: Bayramian Hall 110
+  - Phone: (818) 677-2684
+- National Center on Deafness (NCOD)
+  - Location: Jeanne Chisholm Hall
+  - Phone: (818) 677-2611
+
+## Additional Support Services
+- Learning Resource Center (LRC)
+  - Location: Oviatt Library, 3rd Floor
+  - Services: Tutoring, writing support, and workshops
+- University Counseling Services
+  - Location: Bayramian Hall 520
+  - Phone: (818) 677-2366
+- University Library
+  - Research assistance and resources
+  - Subject specialist librarians
+- Career Center
+  - Location: Bayramian Hall 413
+  - Services: Career counseling, resume review, job search
+
+# Online/Hybrid Specific Information
+
+## Learning Management System
+- Canvas ([canvas.csun.edu](https://canvas.csun.edu)) is our primary platform
+- Log in at least [X] times per week
+- Check announcements and Canvas inbox daily
+
+## Technical Requirements
+- Reliable internet connection
+- Computer with webcam and microphone
+- Canvas-compatible web browser (Chrome or Firefox recommended)
+- [Additional specific software requirements]
+
+## Virtual Office Hours
+- Held via [Platform] (e.g., Zoom)
+- [Days/Times]
+- Drop-in or by appointment
+- Alternative meeting times available upon request
+
+## Online Participation Requirements
+- Regular and substantive interaction is required
+- Participation in discussion boards
+- Group collaboration expectations
+- Synchronous session attendance (if applicable)
+
+## Online Communication Guidelines
+- "Got Questions?" forum for course-related questions
+- "Canvas Cafe" for student community discussions
+- Expected response times for different communication channels
+- Netiquette expectations for online interactions
+
+## Technical Support
+- CSUN IT Help Center: (818) 677-1400
+- Canvas Support (24/7)
+- [Additional technical support resources]
+
+## Online/Hybrid Course Structure
+- Synchronous components: [specify]
+- Asynchronous components: [specify]
+- Group work expectations
+- Assignment submission procedures
+- Online testing procedures (if applicable)
+
+# Course Schedule
+
+| Week | Topics | Readings & Assignments |
+|------|---------|----------------------|
+| 1 | - Course introduction<br>- [Topic 1] | - [Readings]<br>- [Assignments] |
+| 2 | - [Topic 2]<br>- [Topic 3] | - [Readings]<br>- [Assignments] |
+[Continue for all weeks]
+
+*Note: This schedule is tentative and subject to change. Changes will be announced through Canvas.*
+
+# Contact Information Exchange
+Please exchange contact information with two classmates:
+
+1. Name: _____________ Contact: _____________
+2. Name: _____________ Contact: _____________
